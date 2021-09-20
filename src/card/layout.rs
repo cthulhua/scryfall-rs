@@ -55,4 +55,6 @@ pub enum Layout {
     ArtSeries,
     /// A Magic card with two sides that are unrelated.
     DoubleSided,
+    /// Class-type cards.
+    Class,
 }

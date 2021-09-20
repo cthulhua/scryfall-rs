@@ -209,7 +209,7 @@ pub struct Card {
     pub toughness: Option<String>,
 
     /// The type line of this card.
-    pub type_line: String,
+    pub type_line: Option<String>,
     // =========================
     // endregion Gameplay Fields
     //

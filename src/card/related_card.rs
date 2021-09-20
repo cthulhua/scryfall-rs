@@ -21,7 +21,7 @@ pub struct RelatedCard {
     pub name: String,
 
     /// The name of this particular related card.
-    pub type_line: String,
+    pub type_line: Option<String>,
 
     /// The name of this particular related card.
     pub uri: Uri<Card>,
